@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+        list-style: none;
+
+        }
+        nav{
+            text-align: center;
+            font-size: 2em;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <nav>
+        <ul>
+            <li><a href="../index.html">Tables Project</a></li>
+        </ul>
+    </nav>
+  
+    <section>
+        <header><h2>Formulario Viejuner</h2></header>
+        <form action="/" method="GET">
+            <h2>EL club Viejuner</h2> <br>
+    
+            <fieldset>
+                <legend>Tú</legend>
+                
+                <label for="name">Nombre</label>
+                <input tabindex="1" placeholder="Nombre" autofocus id="name" name="name" type="text"> <br>
+            
+                <label for="lastname">Apellidos</label>
+                <input tabindex="2" placeholder="Apellidos" id="lastname" name="lastname" type="text"> <br>
+    
+                <label for="age">Edad</label>
+                <input tabindex="3" placeholder="Edad" type="number" id="age" name="age"><br>
+    
+                <label for="sex">Sexo</label> <br>
+    
+                <label for="femenino">Femenino</label>
+                <input tabindex="4" type="radio" name="sexType" id="femenino" value="Femenino">
+    
+                <label for="masculino">Masculino</label>
+                <input tabindex="5" type="radio" name="sexType" id="masculino" value="Masculino"> <br>
+    
+                <input type="checkbox" id="viejuner" value="viejuner">
+                <label for="viejunes">Me siento Viejuner</label> <br>
+    
+           
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe algo sobre tí:"></textarea>
+    
+            </fieldset>
+    
+            <fieldset>
+                <legend>Tus circunstancias</legend>
+                
+                <label for="mail">Correo</label>
+                <input tabindex="6" id="mail" name="mail" type="mail" placeholder="Correo"> <br>
+    
+                <label for="tel">Teléfono</label>
+                <input type="tel" id="tel" name="tel" placeholder="Teléfono" pattern="[0-9]">
+            </fieldset>
+    
+    
+        </form>
+    </section>
+    
+</body>
+</html>
+
